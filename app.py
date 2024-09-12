@@ -24,8 +24,8 @@ def carregar_tickers():
     return tickers
 
 
-acoes = carregar_tickers()
-# acoes = ["ITUB4.SA", "PETR4.SA", "MGLU3.SA", "VALE3.SA", "ABEV3.SA", "GGBR4.SA"]
+# acoes = carregar_tickers()
+acoes = ["ITUB4.SA", "PETR4.SA", "MGLU3.SA", "VALE3.SA", "ABEV3.SA", "GGBR4.SA"]
 dados = carregar_dados(acoes)
 
 st.write("""
